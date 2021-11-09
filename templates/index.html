@@ -1,0 +1,54 @@
+<html> 
+<body> 
+    <h3>Car Price Prediction (In Lakhs)</h3> 
+	<h4>Please Enter the below details of your car and click on "Submit"</h4>
+	<br>
+	<br>
+  
+<div> 
+  <form action="/result" method="POST">  
+	<label for="Present_Price (In Lakhs)">Present_Price (In Lakhs)</label> 
+    <input type="text" id="Present_Price (In Lakhs)" name="Present_Price (In Lakhs)"> 
+    <br> 
+	<br>
+	<label for="Kms_Driven">Kms_Driven</label> 
+    <input type="text" id="Kms_Driven" name="Kms_Driven"> 
+    <br> 
+	<br>
+	<label for="owner">owner</label>
+    <select id="owner" name="owner">
+      <option value="0">No</option>
+      <option value="1">Yes</option>
+    </select> 
+    <br>
+	<br>
+	<label for="fuel_type">fuel_type</label>
+    <select id="fuel_type" name="fuel_type">
+      <option value="0">Petrol</option>
+      <option value="1">Diesel</option>
+    </select>
+    <br> 
+	<br>
+	<label for="Seller_Type">Seller_Type</label>
+    <select id="Seller_Type" name="Seller_Type">
+      <option value="0">Dealer</option>
+      <option value="1">Individual</option>
+    </select> 
+    <br> 
+	<br>
+	<label for="Transmission">Transmission</label>
+    <select id="Transmission" name="Transmission">
+      <option value="0">Manual</option>
+      <option value="1">Automatic</option>
+    </select>  	
+	<br> 
+	<br>
+	<label for="age_of_car (In Years)">age_of_car (In Years)</label> 
+    <input type="text" id="age_of_car (In Years)" name="age_of_car (In Years)"> 
+    <br>
+	<br>
+    <input type="submit" value="Submit"> 
+  </form> 
+</div> 
+</body> 
+</html>
