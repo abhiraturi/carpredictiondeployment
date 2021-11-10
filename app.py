@@ -62,7 +62,7 @@ def result():
 
 try: 
     # works fine while running the py script in the command-line 
-    app.run(debug=True,port=9000)
+    app.run(debug=True,port=8000)
 except:
     # internal issue with Jupyter Notebook
     print("Exception occured!")
